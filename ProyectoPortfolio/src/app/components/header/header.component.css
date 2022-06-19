@@ -3,3 +3,7 @@ div{
     width: 100vw;
     padding: 0rem;
 }
+app-social{
+    float: right;
+    margin: 25px;
+}
