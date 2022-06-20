@@ -1,0 +1,50 @@
+.row {
+    padding: 20px;
+}
+
+div{
+    text-align: center;
+    margin-top: 4px;
+    background-color: #ebf0f5;
+}
+
+#nombre{
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#actividad{
+    font-style: oblique;
+}
+
+#localidad{
+    font-style: oblique;
+}
+
+h1{
+    font-size: 20px;
+}
+  
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width:15%;
+        left: 2%;
+        top: 315px;
+        background-color:azure;
+        box-shadow: 3px 3px 3px rgb(0, 140, 255);
+        border-radius: 100%;
+    }
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width:25%;
+        left: 37%;
+        top: 270px;
+        background-color:azure;
+        box-shadow: 3px 3px 3px rgb(0, 140, 255);
+        border-radius: 100%;
+    }
+}
