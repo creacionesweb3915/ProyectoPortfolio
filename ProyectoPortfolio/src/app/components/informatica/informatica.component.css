@@ -1,0 +1,32 @@
+.row {
+    padding: 20px;
+    background-color: #ebf0f5;
+
+}
+
+.contenedor {
+    width: auto;
+
+}
+
+.parte1, .parte2{
+    display: inline-block;
+    text-align: left ;
+
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+}
+
+
+
+p{
+    font-size: 25px;
+}
+
+.img-informatica{
+    box-shadow: 10px 10px 30px #000;
+}
