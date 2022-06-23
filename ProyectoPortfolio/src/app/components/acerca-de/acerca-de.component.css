@@ -11,15 +11,18 @@ div{
 #nombre{
     font-weight: bold;
     margin-top: 20px;
+    text-align: left;
     font-size: 20px;
 }
 
 #actividad{
     font-style: oblique;
+    text-align: left;
 }
 
 #localidad{
     font-style: oblique;
+    text-align: left;
 }
 
 h1{
