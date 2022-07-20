@@ -1,3 +1,4 @@
+
 package com.portfolioweb.bkd.Service;
 
 import com.portfolioweb.bkd.Entity.Persona;
@@ -8,10 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ImpPersonaService implements IPersonaService {
-
-    @Autowired
-    IPersonaRepository ipersonaRepository;
+public class ImpPersonaService implements IPersonaService{
+    @Autowired IPersonaRepository ipersonaRepository;
 
     @Override
     public List<Persona> getPersona() {
@@ -21,7 +20,7 @@ public class ImpPersonaService implements IPersonaService {
 
     @Override
     public void savePersona(Persona persona) {
-        ipersonaRepository.save (persona);
+        ipersonaRepository.save(persona);
     }
 
     @Override
@@ -30,9 +29,9 @@ public class ImpPersonaService implements IPersonaService {
     }
 
     @Override
-    public Persona findPersona(Long id) {
+    public Persona finPersona(Long id) {
         Persona persona = ipersonaRepository.findById(id).orElse(null);
         return persona;
     }
-
+    
 }
