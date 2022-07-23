@@ -22,10 +22,16 @@ export class LogoAPComponent implements OnInit {
 
   onLogOut(): void{
     this.tokenService.logOut();
-    window.location.reload;
+    window.location.reload();
   }
 
   login(){
     this.router.navigate(['/login'])
   }
-}
+
+
+
+ 
+  }
+
+  
