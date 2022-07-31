@@ -7,7 +7,7 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL = 'http://localhost:8080/explab/'
+  expURL = 'https://proyectoportfolioback.herokuapp.com/explab/'
 
   constructor(private httpClient: HttpClient) { }
 
@@ -30,7 +30,7 @@ export class SExperienciaService {
     return this.httpClient.put<any>(this.expURL + `update/${id}`, experiencia);
 
   }
-  
+
   public delete(id:number): Observable<any>{
     return this.httpClient.delete<any>(this.expURL + `delete/${id}`);
 
